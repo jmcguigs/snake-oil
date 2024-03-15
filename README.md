@@ -1,21 +1,14 @@
 # SnakeOil
 
-**TODO: Add description**
+Call Python functions from Elixir
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `snake_oil` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:snake_oil, "~> 0.1.0"}
+    {:snake_oil, git: "https://github.com/jmcguigs/snake-oil.git"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/snake_oil>.
 
